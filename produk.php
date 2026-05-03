@@ -32,17 +32,21 @@ $kategori = isset($_GET['kategori']) ? $_GET['kategori'] : 'atk';
     object-fit: cover;
   }
 
+  .navbar-maroon {
+    background-color: #722f37 !important;
+  }
+
 </style>
 </head>
 
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar bg-body-tertiary">
+<nav class="navbar navbar-maroon navbar-dark">
   <div class="container-fluid d-flex justify-content-between">
     <a class="navbar-brand d-flex align-items-center" href="index.php">
       <img src="image/logo.jpg" width="50" class="me-2">
-      <span style="font-weight:bold; color:#800000;">Maroon Furniture</span>
+     <span class="brand-text text-white">Maroon Furniture</span>
     </a>
 
     <!-- BUTTON CRUD -->
