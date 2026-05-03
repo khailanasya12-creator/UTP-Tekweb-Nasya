@@ -22,17 +22,21 @@
       padding: 20px;
       height: 100%;
     }
+
+    .navbar-maroon {
+      background-color: #722f37 !important;
+    }
   </style>
 </head>
 
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar bg-body-tertiary">
+<nav class="navbar navbar-maroon navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="index.php">
       <img src="image/logo.jpg" width="60" class="me-2">
-      <span class="brand-text">Maroon Furniture</span>
+     <span class="brand-text text-white">Maroon Furniture</span>
     </a>
   </div>
 </nav>
